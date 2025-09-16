@@ -1,0 +1,64 @@
+/* cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+/* centrado en la página */
+.feed {
+    width: 600px;
+    margin: 0 auto;
+}
+
+/* Estilo para el encabezado */
+.page-header {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+/* Tarjeta de la foto (el post) */
+.post {
+    background-color: white;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+/* Título y la fecha del post */
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.post-header h2 {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.post-header span {
+    color: #888;
+    font-size: 0.9em;
+}
+
+/* Imagen del post */
+.post-image {
+    width: 100%;
+    display: block;
+}
+
+/* la descripción Foto */
+.post-footer {
+    padding: 10px 20px;
+}
+
+.post-footer p {
+    margin: 0;
+    color: #333;
+}
