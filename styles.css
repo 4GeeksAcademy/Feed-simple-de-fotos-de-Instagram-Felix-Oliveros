@@ -1,50 +1,50 @@
-/* cuerpo de la página */
+/* cuerpo para la pagina */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #fafafa;
     margin: 0;
     padding: 20px;
+    display: flex;
+    justify-content: center;
 }
 
-/* centrado en la página */
+/* Centrar el Contenido */
 .feed {
     width: 600px;
-    margin: 0 auto;
+    max-width: 100%;
 }
 
-/* Estilo para el encabezado */
+/* Encabezado  de pagina */
 .page-header {
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.8em;
     margin-bottom: 20px;
 }
 
-/* Tarjeta de la foto (el post) */
+/* El post*/
 .post {
     background-color: white;
-    border: 1px solid #ddd;
+    border: 1px solid #e6e6e6;
     margin-bottom: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
 }
 
-/* Título y la fecha del post */
+/* Título y fecha */
 .post-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
-    border-bottom: 1px solid #eee;
+    padding: 10px 15px;
+    font-size: 0.9em;
 }
 
 .post-header h2 {
-    font-size: 1.2em;
     margin: 0;
+    font-weight: 600;
 }
 
 .post-header span {
-    color: #888;
-    font-size: 0.9em;
+    color: #999;
 }
 
 /* Imagen del post */
@@ -53,12 +53,14 @@ body {
     display: block;
 }
 
-/* la descripción Foto */
+/* Descripción del post */
 .post-footer {
-    padding: 10px 20px;
+    padding: 10px 15px;
 }
 
 .post-footer p {
     margin: 0;
     color: #333;
+    font-size: 0.95em;
+    line-height: 1.4;
 }
